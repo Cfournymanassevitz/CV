@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <link rel="stylesheet" href="hobbies.css">
+</head>
+
+<body>
+
+    <header>
+        <h3 id="contact"> prise de contact</h3>
+    </header>
+    <main>
+
+
+        <h2> Me contacter</h2>
+
+        <form action="https://httpbin.org/post" method="post" class="formulaire">
+            <div class="formgrid">
+
+                <div class="gauche">
+                 
+                    <label for="name">Nom</label><br>
+                    <input type="text" id="name" name="nom" required>
+                    
+                    <label>Prénom</label><br>
+                    <input type="text" required>
+                  
+                
+                    <label>Adresse mail</label><br>
+                    <input type="email">
+                    
+                    <label for="femme">Femme</label><br>
+                    <input type="radio" id="femme" name="genre" value="femme">
+                   
+                    <label for="homme">Homme</label><br>
+                    <input type="radio" id="homme" name="genre" value="homme">
+                    
+                    <label for="non">Non binaire</label><br>
+                    <input type="radio" id="non" name="genre" value="non"><br>
+                    
+                </div>
+                <div class="droite">
+                    <label>Message </label><br>
+                    <textarea placeholder="Bonjour..." rows="6"></textarea>
+                </div>
+            </div>
+
+            <div>
+                <button>Envoyer</button>
+            </div>
+
+        </form>
+    </main>
+</body>
+<footer></footer>
+
+</html>

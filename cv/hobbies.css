@@ -1,0 +1,113 @@
+
+
+body {
+    background-color: rgb(248, 248, 239);
+    @import url(https://fonts.google.com/specimen/Playfair+Display);
+    font-family: playfair;
+    font-size: 14px;
+}
+
+.banniere {
+    padding: 100px;
+    background-image: url(yoga2.jpg);
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: aliceblue;
+    position: relative;
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height: auto;
+}
+@media  (min-width: 668px){
+h3 {
+    background: linear-gradient(rgb(174, 174, 228), pink);
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 10rem;
+}
+}
+
+.banniere2 {
+    padding: 100px;
+    background-image: url(rando.jpg);
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: aliceblue;
+    position: absolute;
+    top: 40px; 
+    left: 40px;
+    width: 100%;
+    height: auto;
+    margin-top: 4rem;
+}
+
+.banniere3 {
+    padding: 100px;
+    background-image: url(dessin.jpg);
+    background-size: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: rgb(15, 15, 15);
+    position: relative; 
+    top: 50px; 
+    width: 100%;
+    height: auto;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40%;
+    height: 40%;
+    margin: 0;
+    box-shadow: 0 0 10px;
+    box-sizing: border-box;
+    border-radius: 6px solid black;
+    text-align: center;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+.formulaire {
+    border-top: 2px solid purple;
+
+}
+
+.formgrid {
+    display: grid;
+    gap: 2rem;
+    grid-area: 2/4/4/6;
+    grid-template-columns: 1fr 2fr;
+
+}
+
+textarea {
+    width: 100%;
+
+}
+
+.gauche {
+    display: grid;
+    gap: 1rem;
+
+}
